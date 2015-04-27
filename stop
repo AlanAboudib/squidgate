@@ -1,0 +1,1 @@
+kill `cat apache/logs/httpd.pid`

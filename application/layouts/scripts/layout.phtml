@@ -1,0 +1,54 @@
+<?php echo $this->doctype() ?>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <title>SquidGate</title>
+   <?php echo $this->headLink()->appendStylesheet('/css/styles.css') ?>
+</head>
+
+<body>
+
+   <div id="branding">
+   <h1><a href="<?php 
+                echo $this->url(array('controller' => 'index',
+                                      'action' => 'index'), 
+                                null, 
+                                true ); 
+                ?>">
+   <img src="" alt="SquidGate" />
+   </a></h1>
+   </div>
+  
+   <div id="ProxyControl">
+      <?php echo $this->render('__proxyControl.phtml') ?>
+   </div> 
+
+   <div id="AdminIdentity">
+      <?php 
+          $adminDn =  Zend_Auth::getInstance()->getIdentity(); 
+          $ldap = new Application_Model_Ldap();
+          $adminName = ucwords($ldap->getAdminName($adminDn));
+          echo 'Welcome: '.$adminName;
+      ?>
+   </div>
+   
+   <div id="MainControl">
+      <?php echo $this->layout()->content ?>
+   </div>   
+
+   <div id="NavigationTree">
+   </div>
+
+   <div id="UsefulLinks">
+      <?php echo $this->render('__usefulLinks.phtml') ?>
+   </div>
+
+   <p id="Copyright">
+   &#169; 2012 SquidGate: Ala Abudeeb
+   </p>
+
+</body>
+
+</html>

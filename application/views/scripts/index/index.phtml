@@ -1,0 +1,34 @@
+<h2 class="nodisplay">Conrol Panel</h2>
+<ul>
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'Administration',
+                                   'action' => 'index'), 
+                             null, 
+                             true ); 
+             ?>"
+             id="administration-icon" class="icon"></a>
+    
+    <a href="<?php 
+             echo $this->url(array('controller' => 'Administration',
+                                   'action' => 'index'), 
+                             null, 
+                             true ); 
+             ?>">Admin</a></li>
+
+
+<li><a href="<?php
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'index'), 
+                             null, 
+                             true ); 
+             ?>" 
+             id="gateway-icon" class="icon"></a>
+   
+    <a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'index'), 
+                             null, 
+                             true ); 
+             ?>">Gateway Manager</a></li>
+</ul>
+

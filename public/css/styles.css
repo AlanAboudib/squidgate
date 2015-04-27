@@ -1,0 +1,290 @@
+.nodisplay
+{
+position:absolute;
+left:-9999999px;
+}
+
+body
+{
+margin:0px;
+}
+
+
+#branding
+{
+background-color:#3B5998;
+border:1px outset #133783;
+border-top:none;
+position:fixed;
+top:0;
+left:0;
+margin:0;
+height:50px;
+width:100%;
+}
+
+#branding h1
+{
+padding:0;
+margin:0;
+}
+
+#ProxyControl
+{
+background-color:#3B5998;
+border:1px solid #133783;
+position:fixed;
+bottom:0px;
+left:0;
+margin:0;
+height:38px;
+width:100%;
+}
+
+#UsefulLinks
+{
+position: fixed;
+top:0px;
+right:20px;
+height:50px;
+margin:0;
+}
+
+#AdminIdentity
+{
+position: fixed;
+top:60px;
+right:30px;
+height:50px;
+margin:0;
+
+text-decoration:none;
+color: black;
+font-size:0.8em;
+font-weight:600;
+font-family:sans-serif;
+
+}
+
+#ProxyControl a, #UsefulLinks a
+{
+display:block;
+text-align:center;
+width:75px;
+height:25px;
+padding-top:11px;
+
+text-decoration:none;
+color: #E2EBFF;
+font-size:0.7em;
+font-weight:600;
+font-family:sans-serif;
+}
+
+#ProxyControl li, #UsefulLinks li
+{
+float: left;
+
+}
+
+#UsefulLinks li
+{
+float: left;
+margin:0 7px;
+background-color:#133783;
+
+border:1px solid #4B67A1;
+border-top:none;
+
+}
+
+#UsefulLinks li:hover
+{
+background-color:#4B67A1;
+border:1px solid #133783;
+border-top:none;
+}
+
+#ProxyControl ul, #UsefulLinks ul
+{
+list-style:none;
+margin:0;
+padding:0px;
+
+}
+
+#MainControl
+{
+position:relative;
+top:90px;
+left:203px;
+}
+
+#MainControl ul
+{
+list-style: none;
+}
+
+#MainControl li
+{
+float: left;
+margin-right:30px;
+border:1px solid #133783;
+background-color:#EBF1FF;
+font-family:sans-serif;
+font-size:0.8em;
+font-weight:800;
+
+}
+
+#MainControl li:hover
+{
+background-color:#E2EBFF;
+border-color:#3B5998;
+}
+
+
+#MainControl  a
+{
+display:block;
+text-decoration:none;
+text-align: center;
+width:100px;
+height:40px;
+padding:0px 0px 10px 0px;
+color: #133783;
+}
+
+#form-navigation
+{
+position: fixed;
+top:35px;
+left:203px;
+width:100%;
+height:35px;
+background-color:#E2EBFF;
+}
+
+#form-navigation a
+{
+display: block;
+text-decoration:none;
+text-align: center;
+width:100px;
+height:20px;
+color: #133783;
+}
+
+#form-navigation li
+{
+float: left;
+margin-right:30px;
+border: none;
+font-family:sans-serif;
+font-size:0.8em;
+font-weight:800;
+margin-top:5px;
+}
+
+#NavigationTree
+{
+position: fixed;
+top:51px;
+bottom:40px;
+left:0;
+width:200px;
+border-right:3px groove #133783;
+background-color:#E2EBFF;
+
+}
+
+
+a#gateway-icon
+{
+background: url('../images/gateway.png') center center no-repeat;
+height: 80px;
+}
+
+a#administration-icon
+{
+background: url('../images/web-application.png') center center no-repeat;
+height: 80px; 
+}
+
+a#general-icon
+{
+background: url('../images/general-settings.png') center center no-repeat;
+height: 80px;
+}
+
+a#ports-manager-icon
+{
+background: url('../images/ports.png') center center no-repeat;
+height: 80px;
+}
+
+a#monitor-icon
+{
+background: url('../images/traffic-monitor.png') center center no-repeat;
+height: 80px;
+}
+
+a#log-icon
+{
+background: url('../images/log-manager.png') center center no-repeat;
+height: 80px;
+}
+
+a#users-groups-icon, a#admins-and-groups-icon
+{
+background: url('../images/users-groups.png') center center no-repeat;
+height: 80px;
+}
+
+a#cache-icon
+{
+background: url('../images/cache-manager.png') center center no-repeat;
+height: 80px;
+}
+
+
+a#new-user-icon, a#new-admin-icon
+{
+background: url('../images/user.png') center center no-repeat;
+height: 80px;
+}
+
+
+a#new-group-icon, a#new-admin-group-icon
+{
+background: url('../images/group.png') center center no-repeat;
+height: 80px;
+}
+
+
+a#search-users-icon, a#search-admins-icon
+{
+background: url('../images/search-users.png') center center no-repeat;
+height: 80px;
+}
+
+a#search-groups-icon, a#search-admin-groups-icon
+{
+background: url('../images/search-groups.png') center center no-repeat;
+height: 80px;
+}
+
+a#import-admins-icon
+{
+background: url('../images/import-manager.png') center center no-repeat;
+height: 80px;
+}
+
+#Copyright
+{
+position: fixed;
+width:230px;
+bottom:-4px;
+right:10px;
+font-size: 12px;
+}

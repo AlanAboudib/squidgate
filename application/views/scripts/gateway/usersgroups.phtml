@@ -1,0 +1,63 @@
+<h2 class="nodisplay">Conrol Panel</h2>
+<ul>
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'newuser'), 
+                             null, 
+                             true ); 
+             ?>" 
+             id="new-user-icon" class="icon"></a>
+
+    <a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'newuser'), 
+                             null, 
+                             true ); 
+             ?>">New User</a></li>
+
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'newgroup'), 
+                             null, 
+                             true ); 
+             ?>"
+             id="new-group-icon" class="icon"></a>
+
+    <a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'newgroup'), 
+                             null, 
+                             true ); 
+             ?>">New Group</a></li>
+
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'search-users'), 
+                             null, 
+                             true ); 
+             ?>"
+             id="search-users-icon" class="icon"></a>
+
+    <a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'searchusers'), 
+                             null, 
+                             true ); 
+             ?>">Search Users</a></li>
+
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'searchgroups'), 
+                             null, 
+                             true ); 
+             ?>" 
+             id="search-groups-icon" class="icon"></a>
+
+    <a href="<?php 
+             echo $this->url(array('controller' => 'Gateway',
+                                   'action' => 'searchgroups'), 
+                             null, 
+                             true ); 
+             ?>">Search Groups</a></li>
+
+</ul>

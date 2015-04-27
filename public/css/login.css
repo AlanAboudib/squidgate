@@ -1,0 +1,32 @@
+body{
+background-color:#E2EBFF;
+}
+
+form{
+background-color:#3B5998;
+border:2px groove #4B67A1;
+width: 400px;
+height:120px;
+
+position: fixed;
+top: 50%;
+left: 50%;
+margin-left: -200px;
+margin-top: -60px;
+}
+
+form label
+{
+float:left;
+width: 150px;
+text-align: right;
+margin-right: 10px;
+
+color: #E2EBFF;
+font-size:0.8em;
+font-weight:600;
+font-family:sans-serif;
+
+}
+
+

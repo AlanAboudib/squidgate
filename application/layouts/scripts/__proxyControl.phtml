@@ -1,0 +1,23 @@
+<h2 class="nodisplay">Proxy:</h2>
+<ul>
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'squid',
+                                   'action' => 'start'),
+                             null,
+                             true);
+             ?>">Proxy ON</a></li>
+
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'squid',
+                                   'action' => 'stop'),
+                             null,
+                             true);
+             ?>">Proxy OFF</a></li>
+
+<li><a href="<?php 
+             echo $this->url(array('controller' => 'squid',
+                                   'action' => 'reconfigure'),
+                             null,
+                             true);
+             ?>">Proxy Reconfigure</a></li>
+</ul>

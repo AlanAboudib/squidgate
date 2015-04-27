@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<projectProfile type="default" version="1.11.10">
+  <projectDirectory>
+    <projectProfileFile filesystemName=".zfproject.xml"/>
+    <applicationDirectory classNamePrefix="Application_">
+      <apisDirectory enabled="false"/>
+      <configsDirectory>
+        <applicationConfigFile type="ini"/>
+      </configsDirectory>
+      <controllersDirectory>
+        <controllerFile controllerName="Index">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="newAdmin"/>
+          <actionMethod actionName="login"/>
+        </controllerFile>
+        <controllerFile controllerName="Error"/>
+        <controllerFile controllerName="Squid">
+          <actionMethod actionName="index"/>
+        </controllerFile>
+        <controllerFile controllerName="Gateway">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="searchgroupsresults"/>
+          <actionMethod actionName="searchGroupsResultsHandler"/>
+          <actionMethod actionName="editGroup"/>
+          <actionMethod actionName="deleteGroup"/>
+          <actionMethod actionName="searchUsersResults"/>
+          <actionMethod actionName="searchUsersResultsHandler"/>
+          <actionMethod actionName="deleteUsers"/>
+          <actionMethod actionName="editUser"/>
+        </controllerFile>
+        <controllerFile controllerName="Administration">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="newAdmin"/>
+          <actionMethod actionName="newGroup"/>
+          <actionMethod actionName="adminsAndGroups"/>
+          <actionMethod actionName="searchAdmins"/>
+          <actionMethod actionName="searchAdminsResults"/>
+          <actionMethod actionName="searchAdminsResultsHandler"/>
+          <actionMethod actionName="deleteAdmins"/>
+          <actionMethod actionName="editAdmin"/>
+          <actionMethod actionName="searchAdminGroups"/>
+          <actionMethod actionName="searchAdminGroupsResults"/>
+          <actionMethod actionName="searchAdminGroupsResultsHandler"/>
+          <actionMethod actionName="editAdminGroupInfo"/>
+          <actionMethod actionName="deleteAdminGroups"/>
+          <actionMethod actionName="importAdmins"/>
+        </controllerFile>
+        <controllerFile controllerName="Acl">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="groupAcl"/>
+          <actionMethod actionName="editGroupAcl"/>
+        </controllerFile>
+        <controllerFile controllerName="Login">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="process"/>
+          <actionMethod actionName="logout"/>
+        </controllerFile>
+      </controllersDirectory>
+      <formsDirectory>
+        <formFile formName="UserInfo"/>
+        <formFile formName="GroupInfo"/>
+        <formFile formName="SearchGroups"/>
+        <formFile formName="SearchUsers"/>
+        <formFile formName="SearchUsersResults"/>
+        <formFile formName="EditUser"/>
+        <formFile formName="NewGroupAcl"/>
+        <formFile formName="EditGroupAcl"/>
+        <formFile formName="NewAdmin"/>
+        <formFile formName="NewAdminGroup"/>
+        <formFile formName="SearchAdmins"/>
+        <formFile formName="SearchAdminsResults"/>
+        <formFile formName="EditAdmin"/>
+        <formFile formName="SearchAdminGroups"/>
+        <formFile formName="SearchAdminGroupsResults"/>
+        <formFile formName="EditAdminGroup"/>
+        <formFile formName="Login"/>
+        <formFile formName="ImportAdmins"/>
+      </formsDirectory>
+      <layoutsDirectory>
+        <layoutScriptsDirectory>
+          <layoutScriptFile layoutName="layout"/>
+        </layoutScriptsDirectory>
+      </layoutsDirectory>
+      <modelsDirectory>
+        <modelFile modelName="Squid"/>
+        <modelFile modelName="GroupsDataRepository"/>
+      </modelsDirectory>
+      <modulesDirectory enabled="false"/>
+      <viewsDirectory>
+        <viewScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Error">
+            <viewScriptFile forActionName="error"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Squid">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="searchgroupsresults"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="searchGroupsResultsHandler"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="editGroup"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="deleteGroup"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="searchUsersResults"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="searchUsersResultsHandler"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="deleteUsers"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Gateway">
+            <viewScriptFile forActionName="editUser"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Acl">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Acl">
+            <viewScriptFile forActionName="groupAcl"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Acl">
+            <viewScriptFile forActionName="editGroupAcl"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="newAdmin"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="newAdmin"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="newGroup"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="adminsAndGroups"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="searchAdmins"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="searchAdminsResults"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="searchAdminsResultsHandler"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="deleteAdmins"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="editAdmin"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="searchAdminGroups"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="searchAdminGroupsResults"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="searchAdminGroupsResultsHandler"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="editAdminGroupInfo"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="deleteAdminGroups"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Index">
+            <viewScriptFile forActionName="login"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="process"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Login">
+            <viewScriptFile forActionName="logout"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="Administration">
+            <viewScriptFile forActionName="importAdmins"/>
+          </viewControllerScriptsDirectory>
+        </viewScriptsDirectory>
+        <viewHelpersDirectory/>
+        <viewFiltersDirectory enabled="false"/>
+      </viewsDirectory>
+      <bootstrapFile filesystemName="Bootstrap.php"/>
+    </applicationDirectory>
+    <dataDirectory enabled="false">
+      <cacheDirectory enabled="false"/>
+      <searchIndexesDirectory enabled="false"/>
+      <localesDirectory enabled="false"/>
+      <logsDirectory enabled="false"/>
+      <sessionsDirectory enabled="false"/>
+      <uploadsDirectory enabled="false"/>
+    </dataDirectory>
+    <docsDirectory>
+      <file filesystemName="README.txt"/>
+    </docsDirectory>
+    <libraryDirectory>
+      <zfStandardLibraryDirectory enabled="false"/>
+    </libraryDirectory>
+    <publicDirectory>
+      <publicStylesheetsDirectory enabled="false"/>
+      <publicScriptsDirectory enabled="false"/>
+      <publicImagesDirectory enabled="false"/>
+      <publicIndexFile filesystemName="index.php"/>
+      <htaccessFile filesystemName=".htaccess"/>
+    </publicDirectory>
+    <projectProvidersDirectory enabled="false"/>
+    <temporaryDirectory enabled="false"/>
+    <testsDirectory>
+      <testPHPUnitConfigFile filesystemName="phpunit.xml"/>
+      <testPHPUnitBootstrapFile filesystemName="bootstrap.php"/>
+      <testApplicationDirectory>
+        <testApplicationControllerDirectory>
+          <testApplicationControllerFile forControllerName="Index"/>
+        </testApplicationControllerDirectory>
+      </testApplicationDirectory>
+      <testLibraryDirectory/>
+    </testsDirectory>
+  </projectDirectory>
+</projectProfile>
