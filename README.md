@@ -1,6 +1,8 @@
 # squidgate
 (needs contributors) PHP LDAP web application to manage Squid Proxy Server, you can create/add/delete squid users groups and ACL (Access Control lists), change Proxy ports.
 
+Please do not hesitate to FORK this project.
+
 This project is not ready for immediate use because some installation information are still missing, I am working on this. I am really sorry for this inconvenience, but this project is in its infancy. As many Git project, contributors are needed to leverage this project.
 
 For any information and discussion with me (and proposing new ideas), please:
